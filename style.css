@@ -1,0 +1,272 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  display: grid;
+  grid-template-columns: 3fr 9fr;
+  grid-template-rows: 1fr;
+  margin: 5vh 5vh 5vh 4vh;
+  gap: 2vw;
+}
+.bold {
+  font-weight: bold;
+  color: black;
+}
+
+ul {
+  list-style: none;
+}
+
+.task-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.checkbox {
+  margin-right: 10px;
+}
+
+.task-title {
+  flex-grow: 1;
+}
+
+.delete {
+  border: none;
+  background-color: rgb(255, 88, 88);
+  border-radius: 2px;
+  color: white;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.completed {
+  /* text-decoration: line-through; */
+}
+
+.features {
+  margin-top: 16vh;
+  margin-bottom: 49vh;
+}
+
+.features li {
+  cursor: pointer;
+  color: grey;
+}
+
+.features-foot li {
+  cursor: pointer;
+  color: grey;
+}
+.features li:hover {
+  cursor: pointer;
+  color: black;
+  font-weight: bold;
+}
+
+.features-foot li:hover {
+  cursor: pointer;
+}
+
+.heading {
+  margin-bottom: 3vh;
+}
+#datetime {
+  margin-bottom: 10vh;
+}
+.features i {
+  margin-right: 8px;
+}
+
+.features-foot i {
+  margin-right: 8px;
+}
+
+.features > .fe {
+  margin-bottom: 5vh;
+}
+
+.child-1-footer {
+  margin-top: 25vh;
+}
+.fefo {
+  margin: 5vh 0vh 0vh 0vh;
+}
+
+.child-2 {
+  /* background-color: green; */
+}
+
+/* child2 */
+.child-2 > header {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 5fr 1fr 1fr;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  background-color: #f2f2f2;
+  padding: 10px 20px;
+  border-radius: 0px;
+}
+
+.search-box input[type="text"] {
+  border: none;
+  outline: none;
+  background: none;
+  flex-grow: 1;
+  margin-right: 8px;
+  width: 100%;
+}
+.notification {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2f2f2;
+  padding: 6px;
+  border-radius: 0px;
+}
+
+.notification i {
+  color: #888;
+}
+.name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  background-color: #f2f2f2;
+}
+
+.ch-2-heading {
+  margin-top: 8vh;
+  font-size: 1.5em;
+  margin-bottom: 5vh;
+  font-weight: 500;
+}
+
+.gridchild {
+  display: grid;
+  height: 80%;
+
+  grid-template-columns: 1fr 1fr;
+  /* grid-template-rows: 50vh; */
+  gap: 5vw;
+}
+
+.gridchild-heads {
+  font-size: 3vh;
+}
+
+.gridchild-heads {
+  display: flex;
+  justify-content: center;
+}
+.add,
+.delete-items {
+  margin-top: 3vh;
+  width: 100%;
+  border: none;
+  height: 5vh;
+}
+
+.add:hover,
+.delete-items:hover {
+  cursor: pointer;
+}
+/* 
+.task-input {
+  margin-top: 3vh;
+  display: grid;
+  grid-template-rows: 5vh;
+  grid-template-columns: 3fr 1fr;
+  gap: 1vw;
+} */
+
+.delete {
+  border: none;
+  background-color: rgb(255, 88, 88);
+  border-radius: 2px;
+}
+
+.todo,
+.in-progess,
+.completed {
+  /* background-color: red; */
+}
+#todo-form {
+  margin-top: 5vh;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: 5vh;
+  gap: 1vw;
+}
+
+form {
+  margin-bottom: 2vh;
+}
+
+/* Add the following CSS styles at the end of your existing CSS code */
+
+.completed .task-title {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.completed .delete {
+  display: none;
+}
+
+#completed-tasks {
+  margin-top: 20px;
+  padding-left: 10px;
+}
+
+#delete-multiple-btn {
+  margin-top: 20px;
+}
+
+.delete {
+  border: none;
+  background-color: rgb(255, 88, 88);
+  border-radius: 2px;
+  color: white;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 12px;
+}
+.done {
+  border: none;
+  background-color: teal;
+  margin-left: 1vw;
+  border-radius: 2px;
+  color: white;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 12px;
+}
+.delete:hover {
+  background-color: rgb(255, 0, 0);
+}
+
+.checkbox {
+  margin-right: 10px;
+}
+
+.task-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.task-title {
+  flex-grow: 1;
+  font-size: 14px;
+}
+
+.completed {
+  opacity: 0.7;
+}
